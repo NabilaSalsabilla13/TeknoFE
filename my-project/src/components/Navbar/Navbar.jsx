@@ -7,22 +7,22 @@ const MenuLinks = [
   {
     id: 1,
     name: "Home",
-    link: "#",
+    link: "/",
   },
   {
     id:2,
     name: "Catalog",
-    link: "/#shop",
+    link: "/catalog",
   },
   {
     id:3,
     name: "About",
-    link: "/#About",
+    link: "/About",
   },
   {
     id:4,
     name: "Blogs",
-    link: "/#blog",
+    link: "/blog",
   }
 ]
 const App = () => {
