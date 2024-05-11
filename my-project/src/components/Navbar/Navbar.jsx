@@ -20,10 +20,15 @@ const MenuLinks = [
     link: "/About",
   },
   {
+  id:4,
+  name:"Profil",
+  link: "/Profil",
+  },
+  {
     id:4,
-    name: "Blogs",
-    link: "/blog",
-  }
+    name:"Cart",
+    link: "/Cart",
+    },
 ]
 const App = () => {
   return (
@@ -36,7 +41,7 @@ const App = () => {
       <div className='flex items-center'>
         <a href="#"
         className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
-        >Tekno Husbbsbb</a>
+        >Tekno Hub</a>
         {/* {Menu Items} */}
         <div className='hidden lg:block'> 
           <ul className='flex items-center gap-4'>

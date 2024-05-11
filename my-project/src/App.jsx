@@ -5,8 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import About from "./pages/About";
-import Blog from "./pages/Catalog";
-
+import Profil from "./pages/Profil";
+import Cart from "./pages/Cart";
 
 
 const App = () => {
@@ -18,9 +18,11 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="catalog" element={<Catalog />} />
           <Route path="about" element={<About />} />
-          <Route path="blog" element={<Blog />} />
+          <Route path="Profil" element={<Profil />} />
+          <Route path="Cart" element={<Cart />} />
         </Routes>
-        <Footer /> {/** Footer untuk semua page */}
+        <Footer />   
+        {/* {Footer untuk semua page} */}
       </BrowserRouter>
     </>
   )

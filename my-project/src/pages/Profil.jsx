@@ -1,15 +1,13 @@
 import React from 'react';
-import Products from '../components/Products/Products';
-// import Products from './path/to/Products'; // Sesuaikan dengan lokasi file Products
 
-const Catalog = () => {
+const Profil = () => {
     return (
         <div className='container'>
                 <div class="text-center font-bold font-lg">Selamat datang di catalog</div>
-            <Products />
+            <h1>oi</h1>
             {/* <Products /> Panggil komponen Products di sini */}
         </div>
     );
 };
 
-export default Catalog;
+export default Profil;

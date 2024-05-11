@@ -10,8 +10,8 @@ const HeroData = [
     {
         id: 1,
         img: Image1,
-        subtitle: "Beats Solo",
-        title: "Wireless",
+        subtitle: "Nikmati Harimu di Moklet",
+        title: "With",
         title2: "Headphone",
     },
     {
@@ -24,8 +24,8 @@ const HeroData = [
     {
         id: 1,
         img: Image3,
-        subtitle: "Beats Solo",
-        title: "Branded",
+        subtitle: "Ketik Ketik",
+        title: "With",
         title2: "Laptops",
     },
 ]

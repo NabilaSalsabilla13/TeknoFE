@@ -13,7 +13,7 @@ const Category = () => {
                     <div className='col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end'>
                         <div>
                             <div className='mb-4'>
-                                <p className='mb-[2px] text-white' >Enjoy</p>
+                                <p className='mb-[2px] text-white' >Skuy Enjoy</p>
                                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                                 <p className='text-4xl xl:text-5xl font-bold opacity-50 mb-2'>Gaming</p>
                                 <Button
@@ -29,13 +29,13 @@ const Category = () => {
                     <div className='py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-start'>
                         <div>
                             <div className='mb-4'>
-                                <p className='mb-[2px]' text-white>Enjoy</p>
+                                <p className='mb-[2px]' text-white> Skuy Enjoy</p>
                                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                                 <p className='text-4xl xl:text-5xl font-bold opacity-50 mb-2'>Vr</p>
                                 <Button
                                     text="Browse"
                                     bgColor={"bg-white"}
-                                    textColor={"text-brandGreen"}
+                                    textColor={"text-primary"}
                                 />
                             </div>
                         </div>
@@ -45,13 +45,13 @@ const Category = () => {
                     <div className='py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-start'>
                         <div>
                             <div className='mb-4'>
-                                <p className='mb-[2px] text-white' >Enjoy</p>
+                                <p className='mb-[2px] text-white' >Skuy Enjoy</p>
                                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                                 <p className='text-4xl xl:text-5xl font-bold opacity-40 mb-2'>Speaker</p>
                                 <Button
                                     text="Browse"
                                     bgColor={"bg-white"}
-                                    textColor={"text-brandBlue"}
+                                    textColor={"text-primary"}
                                 />
                             </div>
                         </div>
